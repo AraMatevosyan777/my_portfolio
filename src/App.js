@@ -1,7 +1,7 @@
 import React from 'react';
 import './App.css';
 import Navbar from './componnets/Navbar/Navbar';
-import { Route } from 'react-router-dom';
+import { Route, Redirect } from 'react-router-dom';
 import Home from './componnets/Home/Home';
 import AboutMe from './componnets/AboutMe/AboutMe';
 import Portfolio from './componnets/Portfolio/Portfolio';
@@ -13,6 +13,7 @@ function App() {
     <div className="App">
       <Navbar/>
       <div className='content'>
+        <Route path='/' render={()=> <Redirect to='/home'/>}/>
         <Route path='/home' render={()=> <Home/>}/>
         <Route path='/about_me' render={()=> <AboutMe/>}/>
         <Route path='/portfolio' render={()=> <Portfolio/>}/>
