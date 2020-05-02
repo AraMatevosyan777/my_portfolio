@@ -1,0 +1,61 @@
+.portfolio{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: start;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.portfolioCard{
+    width: 30%;
+    height: 200px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+.portfolioCard a{
+    text-decoration: none;
+}
+.portfolioCard:hover .cardContent{
+    opacity: 1;
+}
+.cardImg{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    z-index: 1;
+    transform: translate3d(-50%,-50%,0);
+    width: 100%;
+    height: 100%;
+}
+.cardContent{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    position: absolute;
+    color: white;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    background-image: linear-gradient(deeppink, blue);
+    opacity: 0;
+    transition: opacity 0.2s linear;
+}
+.cardTitle{
+    margin-bottom: 5px;
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.cardText{
+    color: #ffffff;
+    font-size: 14px;
+}

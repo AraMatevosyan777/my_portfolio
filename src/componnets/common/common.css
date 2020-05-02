@@ -1,0 +1,13 @@
+.socialItem{
+    fill: dimgrey;
+    width: 20px;
+    height: 20px;
+    margin: 10px;
+    transition: fill .1s linear translate .1s linear;
+}
+.socialItem:hover{
+    fill: deeppink;
+    transform: translate(2px, -2px);
+    cursor: pointer;
+}
+/* -------------------------------------- */

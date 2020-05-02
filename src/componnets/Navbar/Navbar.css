@@ -1,0 +1,25 @@
+.nav{
+    grid-template: nav;
+    /* background-color: deeppink; */
+    background-image: linear-gradient(deeppink, blue);
+    height: 100vh;
+}
+
+.navItem{
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    align-items: center;
+    height: 50%;
+    padding-top: 50px;
+}
+.navItem div{
+    width: 100%;
+}
+.navItem div a{
+    text-decoration: none;
+    color: rgb(235, 235, 235);
+}
+.navItem div a:hover{
+    color: #fff;
+}

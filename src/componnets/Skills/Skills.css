@@ -1,0 +1,46 @@
+.skills{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    height: 100vh;
+}
+
+.skillsItem{
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.skillContainer {
+    width: 85%;
+    margin-left: 10px;
+    background-color: #ddd;
+    margin-bottom: 30px;
+}
+  
+.skill {
+    text-align: right;
+    padding: 15px;
+    color: white;
+    background-color: deeppink;
+}
+.skillTitle{
+    width: 10%;
+    text-transform: uppercase;
+    text-align: right;
+}
+.download{
+    background-color: #ddd;
+    width: 50%;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+    color: #6c7279;
+    font-size: 14px;
+    line-height: 1.5;
+}
+.download a img{
+    width: 20px;
+    margin-left: 5px;
+}
