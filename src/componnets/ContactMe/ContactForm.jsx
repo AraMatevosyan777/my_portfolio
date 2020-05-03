@@ -13,7 +13,6 @@ const ContactForm = (props) => {
   }
 
   return (
-    <div>
       <form className="contact-form" onSubmit={sendEmail}>
         <h2 className='mb-20'>Send me an Email</h2>
         <input className='inputItem' placeholder='Your email' type="email" name="from_name" autoComplete="off"
@@ -22,7 +21,6 @@ const ContactForm = (props) => {
         value={message} onChange={(e)=> setMessage(e.currentTarget.value)}/>
         <input disabled={!email.length || !message.length && true} className='inpBtn' type="submit" value="Send" />
       </form>
-    </div>
   );
 };
 

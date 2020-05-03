@@ -1,6 +1,6 @@
 .nav{
-    grid-template: nav;
-    /* background-color: deeppink; */
+    width: 17%;
+    background-color: deeppink;
     background-image: linear-gradient(deeppink, blue);
     height: 100vh;
 }

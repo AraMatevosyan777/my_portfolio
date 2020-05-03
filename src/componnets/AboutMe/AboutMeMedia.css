@@ -1,0 +1,24 @@
+@media (max-width:899px){
+    .aboutMe{
+        width: 100%;
+    }
+}
+@media (max-width:440px){
+    .aboutMe h1{
+        font-size: 25px;
+    }
+    .aboutMe h4{
+        font-size: 15px;
+    }
+}
+@media (max-width:370px){
+    .aboutMe h1{
+        font-size: 23px;
+    }
+    .aboutMe h4{
+        font-size: 14px;
+    }
+    .aboutText{
+        font-size: 13px;
+    }
+}

@@ -1,0 +1,26 @@
+@media (max-width:899px){
+    .nav{
+        background-color: deeppink;
+        background-image: linear-gradient(to right, deeppink , blue);
+        width: 100%;
+        height: 15%;
+        padding: 15px 0;
+        position: relative;
+        z-index: 9;
+    }
+    .navItem{
+        display: flex;
+        align-items: center;
+        padding: 10px;
+        height: 100%;
+
+    }
+    .navItem div{
+        width: 20%;
+    }
+}
+@media (max-width:420px){
+    .navItem div{
+        font-size: 14px;
+    }
+}

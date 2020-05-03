@@ -1,5 +1,6 @@
 import React from 'react';
 import './Navbar.css';
+import './NavbarMedia.css';
 import {NavLink} from 'react-router-dom';
 
 const Navbar = (props) => {
@@ -19,7 +20,7 @@ const Navbar = (props) => {
                     <NavLink to='/portfolio'>Portfolio</NavLink>
                 </div>
                 <div>
-                    <NavLink to='/contact_me'>Contact Me</NavLink>
+                    <NavLink to='/contact_me'>Contacts</NavLink>
                 </div>
             </div>
         </nav>

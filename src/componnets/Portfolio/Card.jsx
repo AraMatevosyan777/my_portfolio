@@ -1,5 +1,6 @@
 import React from 'react';
 import './Portfolio.css';
+import './PortfolioMedia.css';
 
 const Card = (props) => {
 

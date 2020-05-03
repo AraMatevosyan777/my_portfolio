@@ -1,5 +1,6 @@
 import React from 'react';
 import './App.css';
+import './App_Media.css';
 import Navbar from './componnets/Navbar/Navbar';
 import { Route, Redirect } from 'react-router-dom';
 import Home from './componnets/Home/Home';
@@ -11,14 +12,16 @@ import ContactMe from './componnets/ContactMe/ContactMe';
 function App() {
   return (
     <div className="App">
-      <Navbar/>
+      <Navbar />
       <div className='content'>
-        <Route path='/' render={()=> <Redirect to='/home'/>}/>
-        <Route path='/home' render={()=> <Home/>}/>
-        <Route path='/about_me' render={()=> <AboutMe/>}/>
-        <Route path='/portfolio' render={()=> <Portfolio/>}/>
-        <Route path='/skills' render={()=> <Skills/>}/>
-        <Route path='/contact_me' render={()=> <ContactMe/>}/>
+        <div class="container">
+          <Route path='/' render={() => <Redirect to='/home' />} />
+          <Route path='/home' render={() => <Home />} />
+          <Route path='/about_me' render={() => <AboutMe />} />
+          <Route path='/portfolio' render={() => <Portfolio />} />
+          <Route path='/skills' render={() => <Skills />} />
+          <Route path='/contact_me' render={() => <ContactMe />} />
+        </div>
       </div>
     </div>
   );

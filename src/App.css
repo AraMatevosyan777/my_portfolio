@@ -1,19 +1,15 @@
 .App{
-  display: grid;
-  grid-template-columns: 2fr 10fr;
-  grid-template-areas: 'nav content';
+  display: flex;
   background-color: rgb(235, 235, 235);
   margin: 0 auto;
-  height: 100vh;
 }
 .content{
-  grid-template-areas: 'nav content';
+  width: 83%;
   height: 100vh;
 }
 .container{
   max-width: 80%;
   margin: 0 auto;
-  padding: 0 15px;
 }
 .w-100{
   width: 100%;

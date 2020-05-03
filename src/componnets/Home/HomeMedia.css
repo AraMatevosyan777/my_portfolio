@@ -1,0 +1,10 @@
+@media (max-width:450px){
+    .homePageImg img{
+        border-radius: 50%;
+        width: 120px;
+    }
+    .homePageItem{
+        font-size: 13px;
+    }
+
+}

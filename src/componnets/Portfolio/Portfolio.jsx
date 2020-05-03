@@ -1,5 +1,6 @@
 import React from 'react';
 import './Portfolio.css';
+import './PortfolioMedia.css';
 import Card from './Card';
 import mogo from './../../assets/images/portfolio/Mogo.png';
 import portfolio from './../../assets/images/portfolio/Portfolio.png';
@@ -19,10 +20,9 @@ const Portfolio = () => {
     ]
     return (
         
-        <div className='container'>
-            <div className="portfolio">
-                {myWorks.map(myWork => <Card myWork={myWork}/>)}
-            </div>
+        
+        <div className="portfolio">
+            {myWorks.map(myWork => <Card myWork={myWork}/>)}
         </div>
     )
 }

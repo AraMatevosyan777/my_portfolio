@@ -1,6 +1,7 @@
 import React from 'react';
 import myImg from '../../assets/images/homePageImg.jpg';
 import './Home.css';
+import './HomeMedia.css';
 import SocialIcons from '../common/SocialIcons';
 
 const Home = () => {
