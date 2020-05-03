@@ -21,24 +21,13 @@
         flex-direction: initial;
         justify-content: space-between;
         align-items: flex-end;
-        /* padding: 0 20px; */
-    }
-    .contactMeBodyItem, .socialItems{
-        width: 40%;
     }
     .contact-form{
         width: 100%;
     }
 }
 @media (max-width:432px){
-    .contactMeBody{
-        /* align-items: center; */
-    }
-    .contactMeBodyItem{
-        width: 60%;
-    }
     .socialItems{
-        width: 40%;
         margin-bottom: 10px;
     }
     .socialItem{
@@ -47,6 +36,6 @@
 }
 @media (max-width:332px){
     .socialItem{
-        width: 100%;
+        width: 15px;
     }
 }
