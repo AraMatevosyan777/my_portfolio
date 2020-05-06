@@ -7,7 +7,7 @@ import portfolio from './../../assets/images/portfolio/Portfolio.png';
 import active_box from './../../assets/images/portfolio/active-box.png';
 import to_do from './../../assets/images/portfolio/to-do.png';
 import soc_net from './../../assets/images/portfolio/soc-net.png';
-import exchange from './../../assets/images/portfolio/exchange.png';
+import exchange from './../../assets/images/portfolio/rates.png';
 
 const Portfolio = () => {
     const myWorks = [
@@ -19,8 +19,6 @@ const Portfolio = () => {
         {id: 5, name: 'To Do List', lang: 'React.js', href:'https://aramatevosyan777.github.io/todo-list/', src:to_do},
     ]
     return (
-        
-        
         <div className="portfolio">
             {myWorks.map(myWork => <Card myWork={myWork}/>)}
         </div>
