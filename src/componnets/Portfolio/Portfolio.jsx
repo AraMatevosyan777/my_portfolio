@@ -8,6 +8,7 @@ import active_box from './../../assets/images/portfolio/active-box.png';
 import to_do from './../../assets/images/portfolio/to-do.png';
 import soc_net from './../../assets/images/portfolio/soc-net.png';
 import exchange from './../../assets/images/portfolio/rates.png';
+import movies from './../../assets/images/portfolio/movies.png';
 
 const Portfolio = () => {
     const myWorks = [
@@ -17,6 +18,7 @@ const Portfolio = () => {
         {id: 3, name: 'Exchange Converter', lang: 'React.js', href:'https://aramatevosyan777.github.io/react-rates/', src:exchange},
         {id: 4, name: 'Social Network', lang: 'React.js', href:'https://aramatevosyan777.github.io/my-project/', src:soc_net},
         {id: 5, name: 'To Do List', lang: 'React.js', href:'https://aramatevosyan777.github.io/todo-list/', src:to_do},
+        {id: 6, name: 'Movie Posters', lang: 'React.js', href:'https://aramatevosyan777.github.io/raect_movie_posters/', src:movies},
     ]
     return (
         <div className="portfolio">
