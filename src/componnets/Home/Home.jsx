@@ -8,7 +8,7 @@ const Home = () => {
     return(
         <div className='homePage'>
             <div className='homePageImg'>
-                <img src={myImg}/>
+                <img src={myImg} alt='main-pic'/>
             </div>
             <div className='homePageItem'>
                 <h1>Hi, I'm Ara</h1>

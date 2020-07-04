@@ -14,7 +14,7 @@ function App() {
     <div className="App">
       <Navbar />
       <div className='content'>
-        <div class="container">
+        <div className="container">
           <Route path='/' render={() => <Redirect to='/home' />} />
           <Route path='/home' render={() => <Home />} />
           <Route path='/about_me' render={() => <AboutMe />} />

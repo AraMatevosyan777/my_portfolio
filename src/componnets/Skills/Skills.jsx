@@ -23,7 +23,7 @@ const Skills = () => {
                 <div className="download">
                     <span>Download my resume here</span>
                     <a href={myCv} download>
-                        <img src={pdf} />
+                        <img src={pdf} alt='cv'/>
                     </a>
                 </div>
 
