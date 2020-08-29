@@ -1,0 +1,41 @@
+{
+  "files": {
+    "main.css": "/my_portfolio/static/css/main.ce85b4e2.chunk.css",
+    "main.js": "/my_portfolio/static/js/main.21a8970a.chunk.js",
+    "main.js.map": "/my_portfolio/static/js/main.21a8970a.chunk.js.map",
+    "runtime-main.js": "/my_portfolio/static/js/runtime-main.7e1b8294.js",
+    "runtime-main.js.map": "/my_portfolio/static/js/runtime-main.7e1b8294.js.map",
+    "static/css/2.847e01e0.chunk.css": "/my_portfolio/static/css/2.847e01e0.chunk.css",
+    "static/js/2.7f3930fc.chunk.js": "/my_portfolio/static/js/2.7f3930fc.chunk.js",
+    "static/js/2.7f3930fc.chunk.js.map": "/my_portfolio/static/js/2.7f3930fc.chunk.js.map",
+    "index.html": "/my_portfolio/index.html",
+    "precache-manifest.2a03b9604066b21f5c9c4b3f136610d6.js": "/my_portfolio/precache-manifest.2a03b9604066b21f5c9c4b3f136610d6.js",
+    "service-worker.js": "/my_portfolio/service-worker.js",
+    "static/css/2.847e01e0.chunk.css.map": "/my_portfolio/static/css/2.847e01e0.chunk.css.map",
+    "static/css/main.ce85b4e2.chunk.css.map": "/my_portfolio/static/css/main.ce85b4e2.chunk.css.map",
+    "static/js/2.7f3930fc.chunk.js.LICENSE.txt": "/my_portfolio/static/js/2.7f3930fc.chunk.js.LICENSE.txt",
+    "static/media/Ara Matevosyan.pdf": "/my_portfolio/static/media/Ara Matevosyan.71d94311.pdf",
+    "static/media/Mogo.png": "/my_portfolio/static/media/Mogo.662a03da.png",
+    "static/media/Portfolio.png": "/my_portfolio/static/media/Portfolio.170eb974.png",
+    "static/media/active-box.png": "/my_portfolio/static/media/active-box.5b8d31a6.png",
+    "static/media/beach-resort.png": "/my_portfolio/static/media/beach-resort.d527a13c.png",
+    "static/media/fb.e44d4dd6.svg": "/my_portfolio/static/media/fb.e44d4dd6.svg",
+    "static/media/github.192a6620.svg": "/my_portfolio/static/media/github.192a6620.svg",
+    "static/media/homePageImg.jpg": "/my_portfolio/static/media/homePageImg.5b1ee4a5.jpg",
+    "static/media/in.3c8afea5.svg": "/my_portfolio/static/media/in.3c8afea5.svg",
+    "static/media/issues.png": "/my_portfolio/static/media/issues.ca65ac91.png",
+    "static/media/movies.png": "/my_portfolio/static/media/movies.f2a5af60.png",
+    "static/media/rates.png": "/my_portfolio/static/media/rates.3800937f.png",
+    "static/media/soc-net.png": "/my_portfolio/static/media/soc-net.2d3e9636.png",
+    "static/media/to-do.png": "/my_portfolio/static/media/to-do.1eb9851a.png",
+    "static/media/trello.png": "/my_portfolio/static/media/trello.d07b34fb.png",
+    "static/media/weather.png": "/my_portfolio/static/media/weather.61f4933b.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.7e1b8294.js",
+    "static/css/2.847e01e0.chunk.css",
+    "static/js/2.7f3930fc.chunk.js",
+    "static/css/main.ce85b4e2.chunk.css",
+    "static/js/main.21a8970a.chunk.js"
+  ]
+}
