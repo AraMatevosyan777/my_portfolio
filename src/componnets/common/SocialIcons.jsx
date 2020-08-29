@@ -1,5 +1,5 @@
 import React from 'react';
-import './common.css';
+import './index.css';
 import { ReactComponent as Fb } from '../../assets/images/social-icons/fb.svg'
 import { ReactComponent as In } from '../../assets/images/social-icons/in.svg'
 import { ReactComponent as Github } from '../../assets/images/social-icons/github.svg'

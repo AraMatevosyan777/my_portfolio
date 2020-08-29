@@ -1,0 +1,28 @@
+.nav{
+    background-color: deeppink!important;
+    background-image: linear-gradient(deeppink, blue)!important;
+}
+
+.navItem{
+    text-align: center;
+    margin-top: 70px;
+    position: fixed;
+    left: 75px;
+}
+.navItem li{
+    list-style-type: none;
+    margin-bottom: 40px;
+}
+.navItem li a{
+    text-decoration: none;
+    color: rgb(235, 235, 235);
+    font-weight: 300;
+}
+.navItem li a:hover{
+    color: #fff;
+}
+
+.navItem a.active{
+    color: #fff;
+    font-weight: 400;
+}

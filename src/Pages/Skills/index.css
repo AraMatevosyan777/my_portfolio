@@ -1,0 +1,20 @@
+.skills{
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.skillsInner{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.basicSkillsItems{
+    margin-bottom: 40px;
+}
+.skillsItems{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}

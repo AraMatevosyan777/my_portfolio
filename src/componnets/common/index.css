@@ -1,0 +1,96 @@
+.socialItem{
+    fill: dimgrey;
+    width: 20px;
+    height: 20px;
+    margin: 10px;
+    transition: fill .1s linear translate .1s linear;
+}
+.socialItem:hover{
+    fill: deeppink;
+    transform: translate(2px, -2px);
+    cursor: pointer;
+}
+/* -------------------------------------- */
+
+/* Card */
+.portfolioCard{
+    width: 30%;
+    height: 200px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    border: none;
+}
+.portfolioCard a{
+    text-decoration: none;
+}
+.cardInfo{
+    position: absolute;
+    right: 5px;
+    top: 5px;
+    z-index: 9999;
+}
+.cardInfo:hover{
+    color: deeppink;
+    border-color: deeppink;
+}
+
+.cardImg{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    z-index: 1;
+    transform: translate3d(-50%,-50%,0);
+    width: 100%;
+    height: 100%;
+}
+.cardContent{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    position: absolute;
+    color: white;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    background-color: rgba(255, 20, 145, 0.747);
+    transition: opacity 0.2s linear;
+}
+.cardTitle{
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+/* -------------------------- */
+/* circleProgress */
+.circleProgress{
+    text-transform: uppercase;
+    margin: 0 20px;
+}
+/* lineProgress */
+.lineProgress{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-transform: uppercase;
+    width: 100%;
+    margin-bottom: 10px;
+}
+.progress{
+    width: 80%;
+    margin-bottom: 10px;
+}
+.progress .ant-progress-inner{
+    background-color: #ccc!important;
+}
+.progress .ant-progress-bg{
+    height: 20px!important;
+}

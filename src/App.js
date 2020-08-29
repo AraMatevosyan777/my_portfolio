@@ -1,30 +1,25 @@
 import React from 'react';
-import './App.css';
-import './App_Media.css';
-import Navbar from './componnets/Navbar/Navbar';
-import { Route, Redirect } from 'react-router-dom';
-import Home from './componnets/Home/Home';
-import AboutMe from './componnets/AboutMe/AboutMe';
-import Portfolio from './componnets/Portfolio/Portfolio';
-import Skills from './componnets/Skills/Skills';
-import ContactMe from './componnets/ContactMe/ContactMe';
+import 'antd/dist/antd.css';
+import { Layout } from 'antd';
+import Router from './Routes/router';
+import Navbar from './componnets/Navbar';
+const { Content, Footer } = Layout;
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
+    <Layout style={{ minHeight: '100vh' }}>
       <Navbar />
-      <div className='content'>
-        <div className="container">
-          <Route path='/' render={() => <Redirect to='/home' />} />
-          <Route path='/home' render={() => <Home />} />
-          <Route path='/about_me' render={() => <AboutMe />} />
-          <Route path='/portfolio' render={() => <Portfolio />} />
-          <Route path='/skills' render={() => <Skills />} />
-          <Route path='/contact_me' render={() => <ContactMe />} />
-        </div>
-      </div>
-    </div>
+      <Layout className="site-layout">
+        <Content style={{ margin: '0 16px' }}>
+          <div className="site-layout-background container">
+            <Router />
+          </div>
+        </Content>
+        <Footer style={{ textAlign: 'center', borderTop: '1px solid #ccc' }}>
+          Created with React.js and Ant Design 2020
+        </Footer>
+      </Layout>
+    </Layout>
   );
-}
-
+};
 export default App;

@@ -2,10 +2,10 @@
     display: flex;
     justify-content: start;
     align-items: center;
-    height: 100vh;
+    height: 100%;
 }
 .aboutText{
-    color: #6c7279;
+    width: 70%;
     font-size: 14px;
     line-height: 1.5;
     padding-bottom: 40px;
