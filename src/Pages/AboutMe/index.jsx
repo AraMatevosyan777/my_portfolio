@@ -14,7 +14,7 @@ const AboutMe = () => {
                 </div>
                 <div className='aboutText'>
                     <Text style={{color: '#6c7279'}}>
-                        I am a Junior Front end developer with a basic handle of technologies. I have a passion and a level of curiosity for technology and of course willingness to learn. Currently, I am looking for a job as a Junior Front end developer (for an internship opportunity I am also open) to gain new skills and become more professional in this field.
+                        I am a Junior Front end developer with a basic handle of technologies. I have a passion and a level of curiosity for technology and of course willingness to learn. Currently, I am looking for a job as a Junior Front end developer to gain new skills and become more professional in this field.
                     </Text >
                 </div>
             </div>
