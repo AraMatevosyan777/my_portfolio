@@ -12,6 +12,7 @@ import trello from './../../assets/images/portfolio/trello.png';
 import beachResort from './../../assets/images/portfolio/beach-resort.png';
 import weather from './../../assets/images/portfolio/weather.png';
 import issues from './../../assets/images/portfolio/issues.png';
+import dolla from './../../assets/images/portfolio/dolla.png';
 
 const Portfolio = () => {
     const myWorks = [
@@ -26,6 +27,7 @@ const Portfolio = () => {
         {id: 9, title: 'Beach Resort', lang: ['React'], href:'https://aramatevosyan777.github.io/beach-resort/', src:beachResort},
         {id: 10, title: 'Weather', lang: ['React', 'Redux','RestApi'], href:'https://aramatevosyan777.github.io/weather-app-ghpage/', src:weather},
         {id: 11, title: 'Issues Page', lang: ['React', 'Redux', 'Ant Design'], href:'https://aramatevosyan777.github.io/issues-ghpage/', src:issues},
+        {id: 12, title: 'Dolla Page', lang: ['React', 'Styled Components'], href:'https://aramatevosyan777.github.io/dolla-page/', src:dolla},
     ]
     return (
         <div className="portfolio">
