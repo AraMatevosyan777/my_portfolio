@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "44553b2a284af145ddd3d49e8d80eb8c",
+    "revision": "03be1aea600fbb93200725cf0dc2d056",
     "url": "/my_portfolio/index.html"
   },
   {
-    "revision": "30c8f7cb50daf4aedfad",
+    "revision": "b95ea7cb5939968aee01",
     "url": "/my_portfolio/static/css/2.847e01e0.chunk.css"
   },
   {
-    "revision": "ceb0994c20b168f37647",
+    "revision": "c79699d96127c0f28705",
     "url": "/my_portfolio/static/css/main.ce85b4e2.chunk.css"
   },
   {
-    "revision": "30c8f7cb50daf4aedfad",
-    "url": "/my_portfolio/static/js/2.7f3930fc.chunk.js"
+    "revision": "b95ea7cb5939968aee01",
+    "url": "/my_portfolio/static/js/2.e806eefc.chunk.js"
   },
   {
     "revision": "3453b8997016469371284a28c0e873e2",
-    "url": "/my_portfolio/static/js/2.7f3930fc.chunk.js.LICENSE.txt"
+    "url": "/my_portfolio/static/js/2.e806eefc.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "ceb0994c20b168f37647",
-    "url": "/my_portfolio/static/js/main.6e63cb2a.chunk.js"
+    "revision": "c79699d96127c0f28705",
+    "url": "/my_portfolio/static/js/main.da62be99.chunk.js"
   },
   {
     "revision": "c73863dbee480bbb5638",
@@ -46,6 +46,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "d527a13c1c8f63b4ef7dc9973ccaf937",
     "url": "/my_portfolio/static/media/beach-resort.d527a13c.png"
+  },
+  {
+    "revision": "5a59fb8f65c720bdbe2bdd2ea28c8f3f",
+    "url": "/my_portfolio/static/media/dolla.5a59fb8f.png"
   },
   {
     "revision": "e44d4dd6594e6ae6718a89059f29cdc7",
