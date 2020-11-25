@@ -1,19 +1,19 @@
 {
   "files": {
     "main.css": "/my_portfolio/static/css/main.ce85b4e2.chunk.css",
-    "main.js": "/my_portfolio/static/js/main.da62be99.chunk.js",
-    "main.js.map": "/my_portfolio/static/js/main.da62be99.chunk.js.map",
+    "main.js": "/my_portfolio/static/js/main.bfe78ea5.chunk.js",
+    "main.js.map": "/my_portfolio/static/js/main.bfe78ea5.chunk.js.map",
     "runtime-main.js": "/my_portfolio/static/js/runtime-main.7e1b8294.js",
     "runtime-main.js.map": "/my_portfolio/static/js/runtime-main.7e1b8294.js.map",
     "static/css/2.847e01e0.chunk.css": "/my_portfolio/static/css/2.847e01e0.chunk.css",
-    "static/js/2.e806eefc.chunk.js": "/my_portfolio/static/js/2.e806eefc.chunk.js",
-    "static/js/2.e806eefc.chunk.js.map": "/my_portfolio/static/js/2.e806eefc.chunk.js.map",
+    "static/js/2.1ec700ab.chunk.js": "/my_portfolio/static/js/2.1ec700ab.chunk.js",
+    "static/js/2.1ec700ab.chunk.js.map": "/my_portfolio/static/js/2.1ec700ab.chunk.js.map",
     "index.html": "/my_portfolio/index.html",
-    "precache-manifest.bcdb7dfe90cd298ea786db8d2ed3fa24.js": "/my_portfolio/precache-manifest.bcdb7dfe90cd298ea786db8d2ed3fa24.js",
+    "precache-manifest.62f1ec9e1abbddf1a66dedcf62d647ab.js": "/my_portfolio/precache-manifest.62f1ec9e1abbddf1a66dedcf62d647ab.js",
     "service-worker.js": "/my_portfolio/service-worker.js",
     "static/css/2.847e01e0.chunk.css.map": "/my_portfolio/static/css/2.847e01e0.chunk.css.map",
     "static/css/main.ce85b4e2.chunk.css.map": "/my_portfolio/static/css/main.ce85b4e2.chunk.css.map",
-    "static/js/2.e806eefc.chunk.js.LICENSE.txt": "/my_portfolio/static/js/2.e806eefc.chunk.js.LICENSE.txt",
+    "static/js/2.1ec700ab.chunk.js.LICENSE.txt": "/my_portfolio/static/js/2.1ec700ab.chunk.js.LICENSE.txt",
     "static/media/Ara Matevosyan.pdf": "/my_portfolio/static/media/Ara Matevosyan.9673d11a.pdf",
     "static/media/Mogo.png": "/my_portfolio/static/media/Mogo.662a03da.png",
     "static/media/Portfolio.png": "/my_portfolio/static/media/Portfolio.170eb974.png",
@@ -27,6 +27,7 @@
     "static/media/issues.png": "/my_portfolio/static/media/issues.ca65ac91.png",
     "static/media/movies.png": "/my_portfolio/static/media/movies.f2a5af60.png",
     "static/media/rates.png": "/my_portfolio/static/media/rates.3800937f.png",
+    "static/media/scroll.png": "/my_portfolio/static/media/scroll.778a5925.png",
     "static/media/soc-net.png": "/my_portfolio/static/media/soc-net.2d3e9636.png",
     "static/media/to-do.png": "/my_portfolio/static/media/to-do.1eb9851a.png",
     "static/media/trello.png": "/my_portfolio/static/media/trello.d07b34fb.png",
@@ -35,8 +36,8 @@
   "entrypoints": [
     "static/js/runtime-main.7e1b8294.js",
     "static/css/2.847e01e0.chunk.css",
-    "static/js/2.e806eefc.chunk.js",
+    "static/js/2.1ec700ab.chunk.js",
     "static/css/main.ce85b4e2.chunk.css",
-    "static/js/main.da62be99.chunk.js"
+    "static/js/main.bfe78ea5.chunk.js"
   ]
 }
