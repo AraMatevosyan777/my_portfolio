@@ -5,7 +5,7 @@ import SocialIcons from '../../componnets/common/SocialIcons';
 import { Avatar } from 'antd';
 import { UserOutlined } from '@ant-design/icons';
 import { Typography } from 'antd';
-const { Title, Text } = Typography;
+const { Title } = Typography;
 
 const Home = () => {
     return(
@@ -14,7 +14,7 @@ const Home = () => {
                 <img src={myImg} alt='main-pic'/> || <UserOutlined />}/>
             <div className='homePageItem'>
                 <Title>Hi, I'm Ara</Title>
-                <Title level={4}>This is my portfolio page</Title>
+                <Title level={5}>Front End Developer | React.js Developer</Title>
             </div>
             <SocialIcons/>
         </div>

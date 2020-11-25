@@ -10,7 +10,7 @@ const AboutMe = () => {
                 <div className='mb-20'>
                     <Title level={4}>Hey there</Title>
                     <Title>I'm Ara Matevosyan</Title>
-                    <h4 level={4}>Front End Developer | React.js Developer</h4>
+                    <h4 level={4}>Front End Developer | ReactJs Developer</h4>
                 </div>
                 <div className='aboutText'>
                     <Text style={{color: '#6c7279'}}>

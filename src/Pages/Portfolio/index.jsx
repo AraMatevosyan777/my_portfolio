@@ -13,6 +13,7 @@ import beachResort from './../../assets/images/portfolio/beach-resort.png';
 import weather from './../../assets/images/portfolio/weather.png';
 import issues from './../../assets/images/portfolio/issues.png';
 import dolla from './../../assets/images/portfolio/dolla.png';
+import scroll from './../../assets/images/portfolio/scroll.png';
 
 const Portfolio = () => {
     const myWorks = [
@@ -28,6 +29,7 @@ const Portfolio = () => {
         {id: 10, title: 'Weather', lang: ['React', 'Redux','RestApi'], href:'https://aramatevosyan777.github.io/weather-app-ghpage/', src:weather},
         {id: 11, title: 'Issues Page', lang: ['React', 'Redux', 'Ant Design'], href:'https://aramatevosyan777.github.io/issues-ghpage/', src:issues},
         {id: 12, title: 'Dolla Page', lang: ['React', 'Styled Components'], href:'https://aramatevosyan777.github.io/dolla-page/', src:dolla},
+        {id: 12, title: 'Scroll Pagination', lang: ['React'], href:'https://aramatevosyan777.github.io/react-scroll-pagination/', src:scroll},
     ]
     return (
         <div className="portfolio">
